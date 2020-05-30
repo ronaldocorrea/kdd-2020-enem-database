@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+.idea
+*.iml
+*.csv
+*.Rproj
+database/*
+output/*
+r-workspace/analise-descritiva/*
+
