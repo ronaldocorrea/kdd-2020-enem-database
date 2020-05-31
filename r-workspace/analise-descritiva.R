@@ -56,7 +56,7 @@ spCandidatos %>% count(IN_STATUS_REDACAO) %>% mutate(percentual = 100 * n / estu
 ggplot(data = red, mapping = aes(x = IN_STATUS_REDACAO, y = percentual)) + geom_bar(stat = 'identity')
 
 # análises univariadas - atributos contínuos - histogramas
-ggplot(data = spCandidatos, mapping = aes(x = AVG_NOTA)) + geom_bar(binwidth = 10) + geom_boxplot(width=1000,color="blue")
+ggplot(data = spCandidatos, mapping = aes(x = AVG_NOTA)) + geom_bar(binwidth = 10, fill="lightgrey") + geom_boxplot(width=1000,color="blue")
 
 ggplot(data = spCandidatos, mapping = aes(x = NU_NOTA_COMP1)) + geom_histogram(binwidth = 20)
 
