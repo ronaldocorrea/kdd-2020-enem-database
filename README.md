@@ -14,6 +14,10 @@
 1. Para cada atributo da base existe um gráfico de distribuição em `analise-descritiva.R`
 2. Caso queira gerar os gráficos no diretório `analise-descritiva` utilize o script `graficos-analise-descritiva.R`
 
+### Análise de Grupos
+
+1. Executar o script `r-workspace/analise-agrupamento.R`
+
 ### Regras de Associação
 
 1. Executar o script `r-workspace/preprocessamento-regras-associacao.R`
